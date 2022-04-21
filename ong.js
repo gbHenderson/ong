@@ -6,7 +6,4 @@ function menu(){
         menu.classList.remove('show')}
 
     else{menu.classList.add('show')
-        menu.classList.remove('hide')}
-
-    
-}
+        menu.classList.remove('hide')}}
