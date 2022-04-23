@@ -1,20 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+/* cores */
+
+:root{
+  --cor1: #275745;
+  --cor2: #4A6E52;
+  --cor3: #F8F6E5;
+  --cor4: #214A40;
+  --cor5: #143531;}
 
 /*Cabeçalho*/
 
-header{background-color: #2CC947;
+header{background-color: var(--cor2);
+       color: var(--cor3);
        height: 30px;
        font-family: 'Comfortaa', cursive;
        margin: -8px -8px 0px -8px;
-       font-size: 25px;    }
+       font-size: 25px; 
+       position: sticky;
+       top: 0;}
 
-i{color: #104A1A; /*se comporta como texto*/
+i{color: var(--cor3); /*se comporta como texto*/
   float: right;
   cursor: pointer;
   font-size: 25px;}
 
-div.menu{background-color: #104A1A;
+div.menu{background-color: var(--cor2);
          width: 100%;
          text-align: center;
          opacity: 0;
@@ -33,19 +46,27 @@ header > div.hide{opacity: 0;
 header > div > a{line-height: 63px;
                  text-decoration: none;
                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                 color: white;}
+                 color: var(--cor3);}
 
 header > div > a:hover{text-decoration: underline;}
 
 /*Corpo*/
 
-body{background-color: #264A2C;}
+body{background-color: var(--cor4);}
 
-main{background-color: white;
-     margin: 0px 10vw 0px 10vw;
-     padding: 1px 8px 5px 8px;}
+main{background-image: url('fotos/floresta.jpg');
+                background-size: cover;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-position: center center;
+                margin-left: -25px; 
+                height: 100vh;
+                width: 100vw;}
 
-main > h1{font-family: 'Asap', sans-serif;
-          font-size: 45px;
-          text-shadow: 0.7px 0.7px 2px rgba(0, 0, 0, 0.6);
-          color: #219635; }
+main > h1 {text-align: center;
+           margin: 0.2px 17px 1px 17px;
+           padding-top: 40px;
+           color: var(--cor5);
+           font-family: 'PT Serif', 'Serif';
+           font-size: 32px;
+              }
