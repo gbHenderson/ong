@@ -52,21 +52,21 @@ header > div > a:hover{text-decoration: underline;}
 
 /*Corpo*/
 
-body{background-color: var(--cor4);}
+body{background-color: white;}
 
 main{background-image: url('fotos/floresta.jpg');
                 background-size: cover;
                 background-attachment: fixed;
                 background-repeat: no-repeat;
                 background-position: center center;
-                margin-left: -25px; 
+                margin-left: -8px;
+                padding-right: 16px;
                 height: 100vh;
-                width: 100vw;}
+                width: 100%;}
 
 main > h1 {text-align: center;
            margin: 0.2px 17px 1px 17px;
            padding-top: 40px;
            color: var(--cor5);
            font-family: 'PT Serif', 'Serif';
-           font-size: 32px;
-              }
+           font-size: 32px;}
