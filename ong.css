@@ -15,23 +15,30 @@
 
 header{background-color: var(--cor2);
        color: var(--cor3);
-       height: 30px;
-       font-family: 'Comfortaa', cursive;
-       margin: -8px -8px 0px -8px;
-       font-size: 25px; 
+       height: 97px;
+       margin: -20px -8px 0px -8px;
        position: sticky;
        top: 0;}
 
-i{color: var(--cor3); /*se comporta como texto*/
-  float: right;
-  cursor: pointer;
-  font-size: 25px;}
+header > div.logo > h1 {font-family: 'Comfortaa', cursive;
+                        font-size: 30px;
+                        text-align: center;
+                        padding: 30px 60px 1px 1px;}
 
-div.menu{background-color: var(--cor2);
+header > div.logo > img{float: left;}
+
+header > div.logo > i/*se comporta como texto*/{
+  color: var(--cor3); 
+  cursor: pointer;
+  font-size: 35px;
+  float: right;
+  margin-top: -60px;}
+
+header > div.menu{background-color: var(--cor2);
          width: 100%;
          text-align: center;
          opacity: 0;
-         margin-top: 2px;
+         margin-top: 13px;
          visibility: hidden;}
 
 header > div.show{opacity: 1;
@@ -43,26 +50,27 @@ header > div.hide{opacity: 0;
                   transition: 1s;}
 
 
-header > div > a{line-height: 63px;
-                 text-decoration: none;
-                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                 color: var(--cor3);}
+header > div.menu > a{line-height: 63px;
+                      font-size: 30px;
+                      text-decoration: none;
+                      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                      color: var(--cor3);}
 
-header > div > a:hover{text-decoration: underline;}
+header > div.menu > a:hover{text-decoration: underline;}
 
 /*Corpo*/
 
 body{background-color: white;}
 
 main{background-image: url('fotos/floresta.jpg');
-                background-size: cover;
-                background-attachment: fixed;
-                background-repeat: no-repeat;
-                background-position: center center;
-                margin-left: -8px;
-                padding-right: 16px;
-                height: 100vh;
-                width: 100%;}
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: -8px;
+    padding-right: 16px;
+    height: 100vh;
+    width: 100%;}
 
 main > h1 {text-align: center;
            margin: 0.2px 17px 1px 17px;
