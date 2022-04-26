@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 /* cores */
 
@@ -24,8 +25,10 @@ header > div.logo > h1{
   font-family: 'Comfortaa', cursive;
   font-size: 25px;
   text-align: center;
-  padding: 30px 60px 1px 1px;
-}
+  padding: 30px 60px 1px 1px;}
+
+header > div.logo > h1 > a{text-decoration: none;
+                           color: var(--cor3); }
 
 header > div.logo > img{float: left;}
 
@@ -62,7 +65,7 @@ header > div.menu > a:hover{text-decoration: underline;}
 
 /*Corpo*/
 
-body{background-color: white;}
+body{background-color: var(--cor3)}
 
 main.principal{background-image: url('fotos/floresta.jpg');
     background-size: cover;
@@ -106,3 +109,34 @@ main.principal > div:hover{border: 5px solid var(--cor5);
 main.principal > div > a{text-decoration: none;
                color: var(--cor3);
                padding: 17px 33px 17px 33px;}
+
+/*Sobre*/
+
+main.sobre > h1{text-align: center;
+                font-family: 'PT Serif', 'Serif';
+                color: var(--cor5);
+                font-size: 55px;
+                text-shadow: 2px 2px 3px #4A6E52;}
+
+main.sobre > div {width: 90vw;
+                  height: 30vw;
+                  max-width: 80vw;                
+                  margin: auto;
+                  background-image: url(fotos/ong1.jpg);
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                  background-position: center center;
+                  padding-bottom: 88px;}
+
+main.sobre > ol {background-color: white;
+                 font-family: Arial, Helvetica, sans-serif;
+                 font-size: 25px;
+                 line-height: 43px;
+                 text-align: justify;
+                 margin: 20px 2vw 0px 2vw;
+                 padding: 1px 30px 1px 40px;      }
+
+main.sobre > ol > li#prin{font-size: 34px;
+                          color: var(--cor5);
+                          line-height: 45px;
+                          font-family: 'Lato', sans-serif;}
