@@ -64,7 +64,7 @@ header > div.menu > a:hover{text-decoration: underline;}
 
 body{background-color: white;}
 
-main{background-image: url('fotos/floresta.jpg');
+main.principal{background-image: url('fotos/floresta.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -74,17 +74,35 @@ main{background-image: url('fotos/floresta.jpg');
     height: 100vh;
     width: 100%;}
 
-main > h1 {text-align: center;
+main.principal > h1 {text-align: center;
            margin: 0.2px 5px 1px 5px;
            padding-top: 140px;
            color: var(--cor5);
            font-family: 'PT Serif', 'Serif';
            font-size: 4vw;}
 
-main > p{margin-top: 120px;
-         padding: 0px 20px 0px 20px; 
+main.principal > p{margin-top: 90px;
+         padding: 0px 50px 0px 50px; 
          font-family: Arial, Helvetica, sans-serif;
          font-size: 3vh;
-         color: white;
-         text-shadow: 2px 2px 2px black;
-                    }
+         color: var(--cor3);
+         text-shadow: 2px 2px 2px black;}
+
+main.principal > div{margin: auto;
+           margin-top: 20px; 
+           text-align: center;
+           line-height: 60px; 
+           border: 3px solid var(--cor5);
+           background-color: #4a6e52d8;
+           border-radius: 12px;
+           width: 200px; 
+           height: 60px;
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 23px;}
+
+main.principal > div:hover{border: 5px solid var(--cor5);
+                 background-color: var(--cor2);}
+
+main.principal > div > a{text-decoration: none;
+               color: var(--cor3);
+               padding: 17px 33px 17px 33px;}
