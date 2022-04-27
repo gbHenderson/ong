@@ -86,12 +86,12 @@ main.principal > h1 {text-align: center;
            font-family: 'PT Serif', 'Serif';
            font-size: 4vw;}
 
-main.principal > p{margin-top: 90px;
+main.principal > p{margin-top: 90px; 
          padding: 40px 50px 0px 50px; 
          font-family: Arial, Helvetica, sans-serif;
          font-size: 2.7vh;
          color: var(--cor3);
-         text-shadow: 2px 2px 2px black;}
+         text-shadow: 1.7px 1.7px 2px black;}
 
 main.principal > div{margin: auto;
            margin-top: 20px; 
@@ -140,17 +140,22 @@ main.sobre > h2 {text-align: center;
 main.sobre > ol {background-color: white;
                  font-family: Arial, Helvetica, sans-serif;
                  font-size: 2.5vh;
-                 line-height: 43px;
+                 line-height: 38px;
                  text-align: justify;
-                 margin: 40px 2vw 0px 2vw;
+                 margin: 40px 2vw 1px 2vw;
                  padding: 1px 30px 1px 40px;
                  border-radius: 10px;
                  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);}
 
+main.sobre > ol > li#um{margin-top: 15px;
+                        font-size: 3.7vh;
+                        color: var(--cor5);
+                        font-family: 'Lato', sans-serif ;  }
+
 main.sobre > ol > li#prin{font-size: 3.7vh;
-                          margin-top: 50px;
                           color: var(--cor5);
-                          line-height: 45px;
+                          line-height: 40px;
+                          margin-top: 60px;
                           font-family: 'Lato', sans-serif;}
 
 main.sobre > ol > ol > li{margin-top:25px;}
@@ -163,7 +168,7 @@ main.sobre > ol > ul > span#projeto{color: var(--cor4);
 main.sobre > ol > ul > a{display: inline-block;
                          text-decoration: none;
                          color: var(--cor1);
-                         margin-right: 31px; }
+                         margin-right: 31px;}
 
 main.sobre > ol > ul > a > i{font-size: 170px;
                              width: 240px;
