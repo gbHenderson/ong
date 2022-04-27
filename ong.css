@@ -130,12 +130,19 @@ main.sobre > div {width: 90vw;
                   background-position: center center;
                   padding-bottom: 88px;}
 
+main.sobre > h2 {text-align: center;
+                 font-family: 'PT Serif', 'Serif';
+                 color: var(--cor5);
+                 font-size: 55px;
+                 margin-top: 160px;
+                 text-shadow: 2px 2px 3px #4A6E52;}
+
 main.sobre > ol {background-color: white;
                  font-family: Arial, Helvetica, sans-serif;
                  font-size: 2.5vh;
                  line-height: 43px;
                  text-align: justify;
-                 margin: 200px 2vw 0px 2vw;
+                 margin: 40px 2vw 0px 2vw;
                  padding: 1px 30px 1px 40px;
                  border-radius: 10px;
                  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);}
@@ -176,9 +183,9 @@ footer{background-color: var(--cor2);
        font-size: 18px; 
        margin: 50px -8px -18px -8px;}
        
-footer > a{color: white;
-           text-decoration: none;}
+footer > p > a{color: white;
+               text-decoration: none;}
 
-footer > a:hover{color: var(--cor5);}
+footer > p >a:hover{color: var(--cor5);}
 
-footer > a:visited{color: gray;}
+footer > p >a:visited{color: gray;}
