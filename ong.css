@@ -149,7 +149,8 @@ main.sobre > ol > li#prin{font-size: 3.7vh;
 main.sobre > ol > ol > li{margin-top:25px;}
 
 main.sobre > ol > ul > span#projeto{color: var(--cor4);
-                                    font-size: 3.5vh;
+                                    font-size: 3vh;
+                                    font-weight: bold;
                                     text-align: center;}
 
 main.sobre > ol > ul > a{display: inline-block;
