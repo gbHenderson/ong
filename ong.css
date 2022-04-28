@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
 
 /* cores */
@@ -87,8 +88,8 @@ main.principal > h1 {text-align: center;
            font-size: 4vw;}
 
 main.principal > p{margin-top: 90px; 
-         padding: 40px 50px 0px 50px; 
-         font-family: Arial, Helvetica, sans-serif;
+         padding: 8vh 2vw 0px 2vw; 
+         font-family: 'Lato', sans-serif;
          font-size: 2.7vh;
          color: var(--cor3);
          text-shadow: 1.7px 1.7px 2px black;}
@@ -106,11 +107,48 @@ main.principal > div{margin: auto;
            font-size: 23px;}
 
 main.principal > div:hover{border: 5px solid var(--cor5);
-                 background-color: var(--cor2);}
+                           background-color: var(--cor2);}
 
 main.principal > div > a{text-decoration: none;
                color: var(--cor3);
                padding: 17px 33px 17px 33px;}
+
+section{background-color: white;
+        margin: 1px -8px 1px -8px;  }
+
+section > p{font-family: 'Lora', serif;
+            font-size: 2vh;
+            margin: 7vh 53vw 10vh 20px;
+            padding: 90px 0px 200px 0px;
+            text-align: justify;}
+
+section > div.video {position: relative;}
+
+section > div.video > iframe{position: absolute;
+                             top: -371px;
+                             left: 58%;
+                             width: 24vw;
+                             height: 25.6vh;}
+
+section > div.saiba {
+  margin: -29vh 1px 130px 10vw; 
+  text-align: center;
+  line-height: 45px;
+  border: 3px solid var(--cor5);
+  background-color: #4a6e52d8;
+  border-radius: 12px;
+  width: 150px; 
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;}
+
+section > div.saiba > a{text-decoration: none;
+                        padding: 9px 1px 15px 6px;
+                        color: var(--cor3);}
+
+section > div.saiba > a:hover{border: 4px solid var(--cor5);
+                              border-radius: 12px;  
+                              background-color: var(--cor2);}
 
 /*Sobre*/
 
@@ -159,11 +197,6 @@ main.sobre > ol > li#prin{font-size: 3.7vh;
                           font-family: 'Lato', sans-serif;}
 
 main.sobre > ol > ol > li{margin-top:25px;}
-
-main.sobre > ol > ul > span#projeto{color: var(--cor4);
-                                    font-size: 3vh;
-                                    font-weight: bold;
-                                    text-align: center;}
 
 main.sobre > ol > ul > a{display: inline-block;
                          text-decoration: none;
