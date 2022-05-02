@@ -113,18 +113,18 @@ main.principal > div > a{text-decoration: none;
                          color: var(--cor3);
                          padding: 17px 33px 17px 33px;}
 
-section{background-color: white;
+section.video{background-color: white;
         margin: 55px 5vw 1px 5vw;
         padding: 8px 1px 8px 20px;
         border-radius: 10px;
-        box-shadow: 1px 1px 6px var(--cor5);  }
+        box-shadow: 1px 1px 6px black;  }
 
-section > p{font-family: 'Lora', serif;
+section.video > p{font-family: 'Lora', serif;
             font-size: 2.5vh;
             text-align: justify;
             margin-right: 18px;  }
 
-section > div{margin: 10px auto 30px auto; 
+section.video > div{margin: 10px auto 30px auto; 
               padding: 8px;
               text-align: center;
               line-height: 30px; 
@@ -136,17 +136,31 @@ section > div{margin: 10px auto 30px auto;
               font-family: Arial, Helvetica, sans-serif;
               font-size: 23px;}
 
-section > div:hover{border: 5px solid var(--cor5);
+section.video > div:hover{border: 5px solid var(--cor5);
                     background-color: var(--cor2);}
 
-section > div > a{text-decoration: none;
+section.video > div > a{text-decoration: none;
                   color: var(--cor3);
                   padding: 9px 5px 10px 2px;  }
 
-section > iframe{width: 101.3%;
+section.video > iframe{width: 101.3%;
                  height: 50vh;
                  margin-left: -1.2%;
                  background-color: white;}
+
+section.doe{background-color: white;
+            margin: 100px -8px 1px -8px;  }
+
+section.doe > h2 {text-align: center;
+                  font-family: 'PT Serif', 'Serif';
+                  color: var(--cor5);
+                  font-size: 50px;
+                  text-shadow: 2px 2px 3px #4A6E52;}
+
+section.doe > p{font-family: 'Lora', serif;
+                font-size: 2.3vh;
+                text-align: center;
+                margin: 10px 5px 1px 5px;}
 
 /*Sobre*/
 
@@ -181,7 +195,7 @@ main.sobre > ol {background-color: white;
                  margin: 40px 2vw 1px 2vw;
                  padding: 1px 30px 1px 40px;
                  border-radius: 10px;
-                 box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);}
+                 box-shadow: 1px 1px 6px black}
 
 main.sobre > ol > li#um{margin-top: 15px;
                         font-size: 3.7vh;
