@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="ong.css">
+    <link rel="shortcut icon" href="fotos/logo.jpeg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="fotos/logo.png" alt="logo-site">
+            <h1><a href="index.html">Pratiqu<span style="color: #143531;">E</span>cologia</a></h1> 
+            <i onclick="menu()" class="fa-solid fa-bars"></i>
+         </div>
+ 
+        <div class="menu">
+           <a href="sobre.html">Sobre</a>
+           <br>
+           <a href="contato.html">Contato</a>
+           <br>
+           <a href="projetos-e-ações.html">Projeto e Ações</a>
+           <br>
+           <a href="https://pratiquecologia.myportfolio.com/desde-2001">Projetos de Tecnologia</a>
+        </div>
+    </header>
+
+    <h1 class="contato">Contato</h1>
+    <main class="cont">
+        <form action="mailto:gabrielhenderson10@hotmail.com" method="post">
+            <fieldset class="ident">
+                <legend>Identificação</legend>
+                   <p>
+                       <label for="nome">Nome: </label>
+                       <input placeholder="Digite seu nome..." type="text" id="nome">
+                    </p>
+
+                   <p>
+                       <label for="email">Email: </label>
+                       <input size="35" placeholder="Digite seu e-mail..." type="email" id="email">
+                    </p>
+
+                   <p>
+                       <label for="estado">Estado: </label>
+                       <select name="esta" id="estado">
+                           <option>Acre</option>
+                           <option>Alagoas</option>
+                           <option>Amapá</option>
+                           <option>Amazonas</option>
+                           <option>Bahia</option>
+                           <option>Ceará</option>
+                           <option>Distrito Federal</option>
+                           <option>Espírito Santo</option>
+                           <option>Goiás</option>
+                           <option>Maranhão</option>
+                           <option>Mato Grosso</option>
+                           <option selected>Mato Grosso do Sul</option>
+                           <option>Minas Gerais</option>
+                           <option>Pará</option>
+                           <option>Paraíba</option>
+                           <option>Pernambuco</option>
+                           <option>Piauí</option>
+                           <option>Rio de Janeiro</option>
+                           <option>Rio Grande do Norte</option>
+                           <option>Rio Grande do Sul</option>
+                           <option>Rondônia</option>
+                           <option>Roraima</option>
+                           <option>Santa Catarina</option>
+                           <option>São Paulo</option>
+                           <option>Sergipe</option>
+                           <option>Tocantins</option>
+                       </select>
+                    </p>
+
+                   <fieldset>
+                       <legend>Sexo</legend>
+                       <input checked name="sexo" type="radio" id="mas">
+                       <label for="mas">Masculino</label> 
+                       <input id="fem" name="sexo" type="radio">
+                       <label for="fem">Feminino</label>
+                   </fieldset>
+
+                <p>
+                    <label for="nas">Data de Nascimento: </label>
+                    <input type="date" id="nas">
+                </p>
+                
+                <p>
+                    <label for="msg">Mensagem: </label>
+                    <textarea name="" id="msg" cols="80" rows="5" placeholder="Digite sua mensagem..."></textarea>
+                </p>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>
+          Site feito por <a target="_blank" href="https://github.com/gbHenderson">Gabriel Henderson</a>
+        </p>
+    </footer>
+ 
+    <script src="ong.js"></script>
+    <script src="https://kit.fontawesome.com/ad217b069d.js" crossorigin="anonymous"></script>
+</body>
+</html>
