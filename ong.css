@@ -18,11 +18,11 @@
 /*Cabeçalho*/
 
 header{background-color: var(--cor2);
-  color: var(--cor3);
-  height: 97px;
-  margin: -20px -8px 1px -8px;
-  position: sticky;
-  top: 0;}
+       color: var(--cor3);
+       height: 97px;
+       margin: -20px -8px 1px -8px;
+       position: sticky;
+       top: 0;}
 
 header > div.logo > h1{
   font-family: 'Comfortaa', cursive;
@@ -31,7 +31,7 @@ header > div.logo > h1{
   padding: 30px 60px 1px 1px;}
 
 header > div.logo > h1 > a{text-decoration: none;
-                           color: var(--cor3); }
+                           color: var(--cor3);}
 
 header > div.logo > img{float: left;}
 
@@ -71,40 +71,40 @@ header > div.menu > a:hover{text-decoration: underline;}
 body{background-color: var(--cor3)}
 
 main.principal{background-image: url('fotos/floresta.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-    margin: -102px 0px 0px -8px;
-    padding: 0px 16px 8px 0px;
-    height: 100vh;
-    width: 100%;}
+               background-size: cover;
+               background-attachment: fixed;
+               background-repeat: no-repeat;
+               background-position: center center;
+               margin: -102px 0px 0px -8px;
+               padding: 0px 16px 8px 0px;
+               height: 100vh;
+               width: 100%;}
 
-main.principal > h1 {text-align: center;
-           margin: 0.2px 5px 1px 5px;
-           padding-top: 140px;
-           color: var(--cor5);
-           font-family: 'PT Serif', 'Serif';
-           font-size: 4vw;}
+main.principal > h1{text-align: center;
+                    margin: 0.2px 5px 1px 5px;
+                    padding-top: 140px;
+                    color: var(--cor5);
+                    font-family: 'PT Serif', 'Serif';
+                    font-size: 4vw;}
 
 main.principal > p{margin-top: 90px; 
-         padding: 8vh 2vw 0px 2vw; 
-         font-family: 'Lato', sans-serif;
-         font-size: 2.7vh;
-         color: var(--cor3);
-         text-shadow: 1.7px 1.7px 2px black;}
+                   padding: 8vh 2vw 0px 2vw; 
+                   font-family: 'Lato', sans-serif;
+                   font-size: 2.7vh;
+                   color: var(--cor3);
+                   text-shadow: 1.7px 1.7px 2px black;}
 
 main.principal > div{margin: auto;
-           margin-top: 20px; 
-           text-align: center;
-           line-height: 60px; 
-           border: 3px solid var(--cor5);
-           background-color: #4a6e52d8;
-           border-radius: 12px;
-           width: 200px; 
-           height: 60px;
-           font-family: Arial, Helvetica, sans-serif;
-           font-size: 23px;}
+                     margin-top: 20px; 
+                     text-align: center;
+                     line-height: 60px; 
+                     border: 3px solid var(--cor5);
+                     background-color: #4a6e52d8;
+                     border-radius: 12px;
+                     width: 200px; 
+                     height: 60px;
+                     font-family: Arial, Helvetica, sans-serif;
+                     font-size: 23px;}
 
 main.principal > div:hover{border: 5px solid var(--cor5);
                            background-color: var(--cor2);}
@@ -117,12 +117,12 @@ section.video{background-color: white;
               margin: 55px 5vw 1px 5vw;
               padding: 8px 1px 8px 20px;
               border-radius: 10px;
-              box-shadow: 1px 1px 6px #00000094;  }
+              box-shadow: 1px 1px 4px #00000094;}
 
 section.video > p{font-family: 'Lora', serif;
                   font-size: 2.5vh;
                   text-align: justify;
-                  margin-right: 18px;  }
+                  margin-right: 18px;}
 
 section.video > div{margin: 10px auto 30px auto; 
                     padding: 8px;
@@ -179,42 +179,42 @@ main.sobre > h1{text-align: center;
                 font-size: 55px;
                 text-shadow: 2px 2px 3px #4A6E52;}
 
-main.sobre > div {width: 90vw;
-                  height: 30vw;
-                  max-width: 80vw;             
-                  margin: auto;
-                  background-image: url(fotos/ong1.jpg);
-                  background-size: contain;
-                  background-repeat: no-repeat;
-                  background-position: center center;
-                  padding-bottom: 88px;}
+main.sobre > div{width: 90vw;
+                 height: 30vw;
+                 max-width: 80vw;             
+                 margin: auto;
+                 background-image: url(fotos/ong1.jpg);
+                 background-size: contain;
+                 background-repeat: no-repeat;
+                 background-position: center center;
+                 padding-bottom: 88px;}
 
-main.sobre > h2 {text-align: center;
-                 font-family: 'PT Serif', 'Serif';
-                 color: var(--cor5);
-                 font-size: 55px;
-                 margin-top: 160px;
-                 text-shadow: 2px 2px 3px #4A6E52;}
+main.sobre > h2{text-align: center;
+                font-family: 'PT Serif', 'Serif';
+                color: var(--cor5);
+                font-size: 55px;
+                margin-top: 160px;
+                text-shadow: 2px 2px 3px #4A6E52;}
 
-main.sobre > ol {background-color: white;
-                 font-family: Arial, Helvetica, sans-serif;
-                 font-size: 2.5vh;
-                 line-height: 38px;
-                 text-align: justify;
-                 margin: 40px 2vw 1px 2vw;
-                 padding: 1px 30px 1px 40px;
-                 border-radius: 10px;
-                 box-shadow: 1px 1px 6px #00000094}
+main.sobre > ol{background-color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 2.5vh;
+                line-height: 38px;
+                text-align: justify;
+                margin: 40px 2vw 1px 2vw;
+                padding: 1px 30px 1px 40px;
+                border-radius: 10px;
+                box-shadow: 1px 1px 4px #00000094;}
 
-main.sobre > ul {background-color: white;
-                 font-family: Arial, Helvetica, sans-serif;
-                 font-size: 2.5vh;
-                 line-height: 38px;
-                 text-align: justify;
-                 margin: 40px 2vw 1px 2vw;
-                 padding: 1px 30px 1px 40px;
-                 border-radius: 10px;
-                 box-shadow: 1px 1px 6px #00000094}
+main.sobre > ul{background-color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 2.5vh;
+                line-height: 38px;
+                text-align: justify;
+                margin: 40px 2vw 1px 2vw;
+                padding: 1px 30px 1px 40px;
+                border-radius: 10px;
+                box-shadow: 1px 1px 4px #00000094;}
 
 main.sobre > ol > li#um{margin-top: 15px;
                         font-size: 3.7vh;
@@ -293,13 +293,15 @@ main.cont > form{background-color: var(--cor1);
                  width: 97vw;
                  margin: auto;
                  border-radius: 10px;
-                 box-shadow:1px 1px 6px #00000094; 
+                 box-shadow:1px 1px 4px #00000094; 
                  padding: 8px 1px 20px 1px;}
 
 main.cont > form > fieldset{width: 88vw;
-                            margin: auto;}
+                            margin: auto;
+                            padding: 1px;}
 
-main.cont > form > fieldset > fieldset{width: 30vw;}
+main.cont > form > fieldset > fieldset{width: 30vw;
+                                       margin: 15px 1px 20px 1px;}
 
 main.cont > form > fieldset > fieldset > legend{
   font-family: 'Cabin', sans-serif;
@@ -309,6 +311,8 @@ main.cont > form > fieldset >legend{margin: auto;
                                     font-size: 30px;
                                     font-family: 'Cabin', sans-serif;}
 
+main.cont > form > fieldset > p{margin: 8px 12px 1px 1px;}
+
 main.cont > form > fieldset > p > input{height: 20px;
                                         margin: 8px 12vw 25px 2px;}
 
@@ -317,7 +321,7 @@ main.cont > form > fieldset > p > input.botao{height: 30px;
 
 section.cont{background-color: white;
              border-radius: 10px;
-             box-shadow: 1px 1px 6px #00000094;}
+             box-shadow: 1px 1px 4px #00000094;}
 
 section.cont > ul > li#um{margin-top: 15px;
                           font-size: 3.7vh;
@@ -325,29 +329,26 @@ section.cont > ul > li#um{margin-top: 15px;
                           font-family: 'Lato', sans-serif;}
 
 section.cont > ul > ul > a{display: inline-block;
-                         text-decoration: none;
-                         color: var(--cor1);
-                         margin-right: 31px;}
+                           text-decoration: none;
+                           color: var(--cor1);
+                           margin-right: 31px;}
 
 section.cont > ul > ul > a > i{font-size: 170px;
-                             width: 240px;
-                             line-height: 200px;}
+                               width: 240px;
+                               line-height: 200px;}
 
 section.cont > ul > ul > a > p{font-size: 50px;
-                             margin: -3px 1px 40px 15px;
-                             font-family: 'Merriweather', serif;
-                             font-weight: bold;}
+                               margin: -3px 1px 40px 15px;
+                               font-family: 'Merriweather', serif;
+                               font-weight: bold;}
 
 section.cont > ul > ul > a:hover{color: var(--cor5);}
 
-section.cont > ul > ul > p{font-size: 2.5vh;
-                           margin: 30px 44px 1px -22px; 
+section.cont > ul > ul > p{font-size: 2.4vh;
+                           margin: 30px 55px 1px -40px; 
                            font-family: Arial, Helvetica, sans-serif;
                            line-height: 38px;
                            text-align: justify;}
-
-
-
 
 /*rodapé*/
 
