@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
 /* cores */
 
@@ -117,7 +117,7 @@ section.video{background-color: white;
               margin: 55px 5vw 1px 5vw;
               padding: 8px 1px 8px 20px;
               border-radius: 10px;
-              box-shadow: 1px 1px 6px black;  }
+              box-shadow: 1px 1px 6px #00000094;  }
 
 section.video > p{font-family: 'Lora', serif;
                   font-size: 2.5vh;
@@ -204,7 +204,7 @@ main.sobre > ol {background-color: white;
                  margin: 40px 2vw 1px 2vw;
                  padding: 1px 30px 1px 40px;
                  border-radius: 10px;
-                 box-shadow: 1px 1px 6px black}
+                 box-shadow: 1px 1px 6px #00000094}
 
 main.sobre > ul {background-color: white;
                  font-family: Arial, Helvetica, sans-serif;
@@ -214,7 +214,7 @@ main.sobre > ul {background-color: white;
                  margin: 40px 2vw 1px 2vw;
                  padding: 1px 30px 1px 40px;
                  border-radius: 10px;
-                 box-shadow: 1px 1px 6px black}
+                 box-shadow: 1px 1px 6px #00000094}
 
 main.sobre > ol > li#um{margin-top: 15px;
                         font-size: 3.7vh;
@@ -250,6 +250,11 @@ main.sobre > ul > ul > a > p{font-size: 50px;
 
 main.sobre > ul > ul > a:hover{color: var(--cor5);}
 
+main.sobre > ul > ul > p{margin: 20px -20px 15px -40px;}
+
+main.sobre > ul > ul.espe > p{margin: 20px 10px 20px 1px;}
+
+
 /*Proejetos e Ações*/
 
 main.pro > h1{text-align: center;
@@ -274,17 +279,72 @@ main.pro >  p{text-align: justify;
 
 /*Contato*/
 
-h1.contato{text-align: center;
+h1#contato{text-align: center;
            font-family: 'PT Serif', 'Serif';
            color: var(--cor5);
            font-size: 50px;
            text-shadow: 2px 2px 3px #4A6E52;} 
 
+main.cont > form{background-color: var(--cor1);
+                 font-family: Arial, Helvetica, sans-serif;
+                 font-size: 20px;
+                 line-height: 30px;
+                 color: var(--cor3);
+                 width: 97vw;
+                 margin: auto;
+                 border-radius: 10px;
+                 box-shadow:1px 1px 6px #00000094; 
+                 padding: 8px 1px 20px 1px;}
 
+main.cont > form > fieldset{width: 88vw;
+                            margin: auto;}
 
+main.cont > form > fieldset > fieldset{width: 30vw;}
 
+main.cont > form > fieldset > fieldset > legend{
+  font-family: 'Cabin', sans-serif;
+  font-size: 24px;}
 
+main.cont > form > fieldset >legend{margin: auto;
+                                    font-size: 30px;
+                                    font-family: 'Cabin', sans-serif;}
 
+main.cont > form > fieldset > p > input{height: 20px;
+                                        margin: 8px 12vw 25px 2px;}
+
+main.cont > form > fieldset > p > input.botao{height: 30px;
+                                              width: 80px;}
+
+section.cont{background-color: white;
+             border-radius: 10px;
+             box-shadow: 1px 1px 6px #00000094;}
+
+section.cont > ul > li#um{margin-top: 15px;
+                          font-size: 3.7vh;
+                          color: var(--cor5);
+                          font-family: 'Lato', sans-serif;}
+
+section.cont > ul > ul > a{display: inline-block;
+                         text-decoration: none;
+                         color: var(--cor1);
+                         margin-right: 31px;}
+
+section.cont > ul > ul > a > i{font-size: 170px;
+                             width: 240px;
+                             line-height: 200px;}
+
+section.cont > ul > ul > a > p{font-size: 50px;
+                             margin: -3px 1px 40px 15px;
+                             font-family: 'Merriweather', serif;
+                             font-weight: bold;}
+
+section.cont > ul > ul > a:hover{color: var(--cor5);}
+
+section.cont > ul > ul > p{font-size: 2.5vh;
+                           margin: 30px 44px 1px -22px; 
+                           font-family: Arial, Helvetica, sans-serif;
+                           line-height: 38px;
+                           text-align: justify;}
 
 
 
