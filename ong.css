@@ -237,11 +237,12 @@ main.sobre > ol > ol > li{margin-top:25px;}
 main.sobre > ul > ul > a{display: inline-block;
                          text-decoration: none;
                          color: var(--cor1);
-                         margin-right: 31px;}
+                         margin-right: 20px;}
 
 main.sobre > ul > ul > a > i{font-size: 170px;
                              width: 240px;
-                             line-height: 200px;}
+                             line-height: 200px;
+                             margin: 5px;}
 
 main.sobre > ul > ul > a > p{font-size: 50px;
                              margin: -3px 1px 40px 15px;
@@ -331,10 +332,11 @@ section.cont > ul > li#um{margin-top: 15px;
 section.cont > ul > ul > a{display: inline-block;
                            text-decoration: none;
                            color: var(--cor1);
-                           margin-right: 31px;}
+                           margin-right: 20px;}
 
 section.cont > ul > ul > a > i{font-size: 170px;
                                width: 240px;
+                               margin: 5px 5px -10px 5px;
                                line-height: 200px;}
 
 section.cont > ul > ul > a > p{font-size: 50px;
