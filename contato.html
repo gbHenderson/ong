@@ -29,18 +29,21 @@
 
     <h1 id="contato">Contato</h1>
     <main class="cont">
-        <form action="mailto:gabrielhenderson10@hotmail.com" method="post">
+        <form action="https://api.staticforms.xyz/submit" method="post" class="card">
+          <input type="hidden" name="accessKey" value="c10cb7c3-1964-479c-8025-159b5863d16b">
+          <input type="hidden" name="redirectTo" value="https://gbhenderson.github.io/ong/contato.html">   
             <fieldset class="ident">
                 <legend>Identificação</legend>
                    <p>
                        <label for="nome">Nome: </label>
-                       <input placeholder="Digite seu nome..." type="text" id="nome">
+                       <input placeholder="Digite seu nome..." type="text" name="name"
+                       id="nome">
                     
                        <label for="email">Email: </label>
-                       <input size="28" placeholder="Digite seu e-mail..." type="email" id="email">
+                       <input size="28" placeholder="Digite seu e-mail..." type="email" name="email" id="email">
                 
                        <label for="estado">Estado: </label>
-                       <select name="esta" id="estado">
+                       <select name="estado" id="estado">
                            <option>Acre</option>
                            <option>Alagoas</option>
                            <option>Amapá</option>
@@ -80,13 +83,13 @@
 
                 <p>
                     <label for="nas">Data de Nascimento: </label>
-                    <input type="date" id="nas">
+                    <input type="date" name="subject" id="nas">
                 </p>
                 
                 <p>
                     <label for="msg">Mensagem: </label>
-                    <textarea name="" id="msg" cols="45" rows="6" placeholder="Digite sua mensagem..."></textarea>
-                    <input onclick="enviar()" class="botao" type="button" value="Enviar">
+                    <textarea name="message" id="msg" cols="45" rows="6" placeholder="Digite sua mensagem..."></textarea>
+                    <button onclick="enviar()">Enviar</button>
                 </p>
             </fieldset>
         </form>

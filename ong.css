@@ -322,6 +322,7 @@ main.cont > form > fieldset > p > input.botao{height: 30px;
 
 section.cont{background-color: white;
              border-radius: 10px;
+             margin: 1px 0.6vw 1px 0.6vw;
              box-shadow: 1px 1px 4px #00000094;}
 
 section.cont > ul > li#um{margin-top: 15px;
