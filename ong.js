@@ -13,8 +13,6 @@ function enviar(){
    var nome2 = document.getElementsByTagName('label')[0]
    var email = document.getElementById('email')
    var email2 = document.getElementsByTagName('label')[1]
-   var nas = document.getElementById('nas')
-   var nas2 = document.getElementsByTagName('label')[5]
    var men = document.getElementById('msg')
    var men2 = document.getElementsByTagName('label')[6]
 
@@ -30,10 +28,6 @@ function enviar(){
      email2.style.color = 'red'
      email.style.background = 'red'} 
 
-   if(nas.value.length < 1){
-     nas2.style.color = 'red'
-     nas.style.background = 'red'}
-
    else{window.alert('Mensagem Enviada!')
         nome2.style.color = 'white'
         nome.style.background = 'white'
@@ -42,5 +36,4 @@ function enviar(){
         nas2.style.color = 'white'
         nas.style.background = 'white'
         men2.style.color = 'white'
-        men.style.background = 'white'}
-}
+        men.style.background = 'white'}}

@@ -23,7 +23,7 @@
            <br>
            <a href="projetos-e-ações.html">Projeto e Ações</a>
            <br>
-           <a href="https://pratiquecologia.myportfolio.com/desde-2001">Projetos de Tecnologia</a>
+           <a href="https://pratiquecologia.myportfolio.com/desde-2001" target="_blank">Galeria</a>
         </div>
     </header>
 
@@ -36,11 +36,11 @@
                 <legend>Identificação</legend>
                    <p>
                        <label for="nome">Nome: </label>
-                       <input placeholder="Digite seu nome..." type="text" name="name"
+                       <input placeholder="Digite seu nome..." type="text" required name="name"
                        id="nome">
                     
                        <label for="email">Email: </label>
-                       <input size="28" placeholder="Digite seu e-mail..." type="email" name="email" id="email">
+                       <input size="28" placeholder="Digite seu e-mail..." required type="email" name="email" id="email">
                 
                        <label for="estado">Estado: </label>
                        <select name="estado" id="estado">
@@ -88,7 +88,7 @@
                 
                 <p>
                     <label for="msg">Mensagem: </label>
-                    <textarea name="message" id="msg" cols="45" rows="6" placeholder="Digite sua mensagem..."></textarea>
+                    <textarea name="message" id="msg" cols="45" rows="6" required placeholder="Digite sua mensagem..."></textarea>
                     <button onclick="enviar()">Enviar</button>
                 </p>
             </fieldset>
