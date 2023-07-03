@@ -31,7 +31,8 @@ header > div.logo > h1{
   padding: 30px 60px 1px 1px;}
 
 header > div.logo > h1 > a{text-decoration: none;
-                           color: var(--cor3);}
+                           color: var(--cor3);
+                            font-size: 15px;}
 
 header > div.logo > img{float: left;}
 
